@@ -5,7 +5,8 @@ from sklearn.ensemble import GradientBoostingRegressor
 # ----------------------------
 # LOAD DATASET
 # ----------------------------
-data = pd.read_csv("C:\\Users\\Medhojwal\\Downloads\\Indian_Food_Nutrition_Processed.csv")
+url="https://raw.githubusercontent.com/battala-medhojwal-simha/diet-system/refs/heads/main/Indian_Food_Nutrition_Processed.csv"
+data = pd.read_csv(url)
 
 # Rename dataset columns to match the program
 data.rename(columns={
