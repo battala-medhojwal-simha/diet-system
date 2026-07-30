@@ -161,22 +161,73 @@ Allergy: None
 ## Sample Output
 
 ```text
-BMI: 25.47
+Enter Age: 21
+Enter Gender (male/female): male
+Enter Height (cm): 174
+Enter Weight (kg): 75
+Activity Level (low/moderate/high): moderate
+Goal (bulk/cut/maintain): cut
+Any allergies? (enter food name or none): none
 
-Daily Calorie Target: 2860 kcal
+BMI: 24.77
+Daily Calorie Target: 2393
 
-Protein Target: 140 g
-Carbohydrates Target: 390 g
-Fat Target: 79 g
+Macro Targets
+Protein: 135 g
+Carbs: 314 g
+Fat: 66 g
 
-Recommended Foods
+AI Predicted Calories: 2438
+Difference: 45 kcal
 
-• Brown Rice
-• Chicken Breast
-• Oats
-• Eggs
-• Milk
-• Banana
+=========== DAILY DIET PLAN ===========
+
+=====  Breakfast  =====
+Target Calories: 598
+
+Food: Boondi raita
+Calories: 687.72
+Protein: 2.19 g
+Carbs: 3.96 g
+Fat: 73.83 g
+
+Meal Nutrition Summary
+Total Calories: 688
+Protein: 2 g
+Carbs: 4 g
+Fat: 74 g
+
+=====  Lunch  =====
+Target Calories: 838
+
+Food: Soyabean muthias
+Calories: 839.33
+Protein: 2.46 g
+Carbs: 3.7 g
+Fat: 90.45 g
+
+Meal Nutrition Summary
+Total Calories: 839
+Protein: 2 g
+Carbs: 4 g
+Fat: 90 g
+
+=====  Dinner  =====
+Target Calories: 718
+
+Food: Mathri
+Calories: 805.12
+Protein: 1.75 g
+Carbs: 12.32 g
+Fat: 83.1 g
+
+Meal Nutrition Summary
+Total Calories: 805
+Protein: 2 g
+Carbs: 12 g
+Fat: 83 g
+
+Diet Plan Generated Successfully!
 ```
 
 ---
